@@ -22,3 +22,13 @@ The ideal cryptographic has function has 5 main properties:
 5. No collisions between hash values. Each input generates a unique value
 
 Remember, without hashing, there is **NO BLOCKCHAIN**. If you change the contents of one block, you need to change/adjust every single block after it because the changes will generate a new hash value.
+
+
+### Learning Solidity Step By Step with Labs and Slides
+
+- Smart contracts is a piece of code running on the blockchain, it can be thought of as a state machine that changes states based off transactions. It can do logic operations, state   change happens through mining + transactions
+
+- Solidity code is compiled into EVM bytecode
+
+- Every high level programming language gets converted to bytecode
+
