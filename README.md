@@ -10,6 +10,8 @@
 3. Public Keys and Addresses are generated from Private Keys
 4. Private Keys have to be kept secret & safe at all costs
 
+- The private key is sent to a function called Elliptic Curve Digital Signature Algorithm to generate a Public Key (64-bytes long). This is a one way functionality, you can't take your public key and generate your private key. With this public key, you can create an Ethereum Account (Keccak Hash of the last 20 bytes of the public key )
+
 
 #### Cryptographic Hashing Intro
 
@@ -21,7 +23,7 @@ The ideal cryptographic has function has 5 main properties:
 4. Small change to input should create a drastic change to the hash value
 5. No collisions between hash values. Each input generates a unique value
 
-Remember, without hashing, there is **NO BLOCKCHAIN**. If you change the contents of one block, you need to change/adjust every single block after it because the changes will generate a new hash value.
+Remember, without hashing, there is **NO BLOCKCHAIN**. If you change the contents of one block, you need to **change/adjust** every single block after. This is because the changes will generate a new hash value.
 
 
 ### Learning Solidity Step By Step with Labs and Slides
@@ -32,3 +34,6 @@ Remember, without hashing, there is **NO BLOCKCHAIN**. If you change the content
 
 - Every high level programming language gets converted to bytecode
 
+- Every public variable in solidity will create a public that the user can interact with in remix
+
+- turing complete means that 
