@@ -32,8 +32,8 @@ Remember, without hashing, there is **NO BLOCKCHAIN**. If you change the content
 
 - Solidity code is compiled into EVM bytecode
 
-- Every high level programming language gets converted to bytecode
+- Every high level programming language gets converted to bytecode. Solidity is derived from **ECMAScript** .
 
 - Every public variable in solidity will create a public that the user can interact with in remix
 
-- turing complete means that 
+- Turing complete means a system in which a program can be written that will find an answer (although with no guarantees regarding runtime or memory)
