@@ -44,4 +44,7 @@ contract WorkingWithVariables {
         myString = _myString;
     }
     
+    // variables are initialized by default, so there is no 'null' or 'undefined' functions
+    // not all rules of modern development apply to blockchain development (limited resources & variable initialization)
+    
 }
