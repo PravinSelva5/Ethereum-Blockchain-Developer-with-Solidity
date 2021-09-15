@@ -54,4 +54,4 @@ contract SendMoneyExample {
 - a function cannot receive Ether unless it is marked 'payable'
 
 
-*/
+*/ 
