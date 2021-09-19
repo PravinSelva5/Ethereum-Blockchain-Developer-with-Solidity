@@ -1,0 +1,14 @@
+--------------------------
+        CONSTRUCTOR
+--------------------------
+- a function with the name "constructor()"
+- only called once, either public or internal
+
+
+--------------------------
+   FALLBACK FUNCTION 
+--------------------------
+
+- this function is called when a transaction without a function-call is sent to the smart contract or isn't found.
+- CAN only be external
+- 
