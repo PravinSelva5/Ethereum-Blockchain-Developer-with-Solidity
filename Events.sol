@@ -34,5 +34,6 @@ EVENTS AND RETURN VALUES
 - used as a cheap data storage
 
 
+- Events can be used as triggers. 
 
 */
